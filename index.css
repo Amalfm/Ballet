@@ -2,6 +2,8 @@ body, html {
   margin: 0;
   padding: 0;
 }
+
+/* Navigation menu properties*/
 .topnav {
     background-color: #FFF8E7;
     overflow: hidden;
@@ -11,6 +13,8 @@ body, html {
 
 
 }
+
+/*Navigation menu buttons that are not drom down (Home and Contact)*/
 .topnav a {
     float: right;
     display: block;
@@ -22,17 +26,20 @@ body, html {
     border-bottom: 1px solid #555;
     border-right: 1px solid #555;
 }
+
+/*Navigation menu buttons that are not drom down when you hover*/
 .topnav a:hover {
     background-color: #ddd;
     color: black;
 }
+
+/*The botton for the page you are in that moment*/
 .active {
     background-color: #bcae97 ;
     color: black;
 }
-.topnav .icon {
-    display: none;
-}
+
+
 
 .dropdown {
     float: right;
@@ -83,6 +90,8 @@ body, html {
     display: block;
 }
 
+
+
 .content {
   position: relative;
   background-color: #FFF8E7 ;
@@ -91,11 +100,11 @@ body, html {
 
 .split {
   width: 50%;
-  position: absolute;
+  position: fixed;
   min-height: 300%;
   overflow-x: hidden;
   padding-top: 20px;
-  background-color: #FFF8E7 ;
+
 }
 
 .ballerinahome {
@@ -107,6 +116,7 @@ body, html {
   right: 0;
   background-color: #FFF8E7;
 }
+
 .center {
     display: block;
     margin-left: auto;
