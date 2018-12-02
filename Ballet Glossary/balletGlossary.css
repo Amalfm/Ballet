@@ -1,6 +1,7 @@
 body, html {
   margin: 0;
   padding: 0;
+  background-color: #FFF8E7;
 }
 
 /* Navigation menu properties*/
@@ -94,4 +95,16 @@ body, html {
   position: relative;
   background-color: #FFF8E7 ;
 
+}
+.terms {
+  display: table;
+}
+
+.img {
+  vertical-align: middle;
+  display: table-cell;
+}
+.span {
+  vertical-align: middle;
+  display: table-cell;
 }
