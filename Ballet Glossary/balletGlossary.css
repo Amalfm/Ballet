@@ -94,17 +94,43 @@ body, html {
 .content {
   position: relative;
   background-color: #FFF8E7 ;
+  margin-left:  70px;
+  margin-right:   70px;
+  margin-bottom:   70px;
 
 }
+.content h1 {
+  color: #ad1414;
+}
+.containInfo{
+  min-height: 300%;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.containList{
+  float: left;
+  width: 50%
+}
+.containImage{
+  float: right;
+  padding-right: 10%;
+}
+
 .terms {
   display: table;
+  border-top: 1px dashed #ad1414;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.terms h2{
+  color: #ad1414;
+}
+.text{
+  padding: 2%;
 }
 
 .img {
   vertical-align: middle;
   display: table-cell;
-}
-.span {
-  vertical-align: middle;
-  display: table-cell;
+  border: 1px solid #60502e;
 }
