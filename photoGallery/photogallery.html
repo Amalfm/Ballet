@@ -12,7 +12,7 @@
 <body>
 
   <div class="topnav">
-    <a href="contact">Contact</a>
+    <a href="../contactus.html">Contact</a>
 
     <div class="dropdown">
       <button class="dropbtn">On Stage </button>
@@ -26,15 +26,14 @@
         <button class="dropbtn">About Ballet </button>
           <div class="dropdown-content">
             <a href="#">History</a>
-            <a href="#">What Does It Take</a>
-            <a href="#">Ballet Glossary</a>
-            <a class="active" href="#">Photo Gallery</a>
+            <a href="../What%20does%20it%20take/whatItTakes.html">What Does It Take</a>
+            <a href="../Ballet%20Glossary/balletGlosarry.html">Ballet Glossary</a>
+            <a class="active" href="photogallery.html">Photo Gallery</a>
           </div>
     </div>
 
-    <a href="#home">Home</a>
+    <a href="../Index/index.html">Home</a>
 
-    <!--  <a href="javascript:void(0);" class="icon" onclick="myFunction()"> </a> -->
   </div>
 
   <div class="content">
@@ -42,65 +41,54 @@
 
 
     <div class="upPart">
-      <h2><b>Ballet Classes</b></h2>
-
-      <!-- Container for the image gallery -->
-      <div class="container">
-
-        <!-- Full-width images with number text -->
-        <div class="mySlides">
-          <div class="numbertext">1 / 5</div>
-          <img src="tutu.jpg" >
+        <h2><b>Ballet Classes</b></h2>
+        <div class="container">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <img id="expandedImg" style="width:75%; height:75%">
+            <div id="imgtext"></div>
         </div>
-
-        <div class="mySlides">
-          <div class="numbertext">2 / 5</div>
-          <img src="tutu.jpg" >
-        </div>
-
-        <div class="mySlides">
-          <div class="numbertext">3 / 5</div>
-          <img src="tutu.jpg" >
-        </div>
-
-        <div class="mySlides">
-          <div class="numbertext">4 / 5</div>
-          <img src="tutu.jpg" >
-        </div>
-
-        <div class="mySlides">
-          <div class="numbertext">5 / 5</div>
-          <img src="tutu.jpg" >
-        </div>
-
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-        <!-- Image text -->
-        <div class="caption-container">
-          <p id="caption"></p>
-        </div>
-
-        <!-- Thumbnail images -->
         <div class="row">
-          <div class="column">
-            <img class="demo cursor" src="tutu.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
-          </div>
-          <div class="column">
-            <img class="demo cursor" src="tutu.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
-          </div>
-          <div class="column">
-            <img class="demo cursor" src="tutu.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
-          </div>
-          <div class="column">
-            <img class="demo cursor" src="tutu.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-          </div>
-          <div class="column">
-            <img class="demo cursor" src="tutu.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
-          </div>
+            <div class="column">
+                <img src="ballet-class-boys.jpg" width = "200px" height="135px" alt="Descriere poza 1" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+                <img src="ballet-class-duet.jpg" width = "200px" height="135px" alt="Descriere poza 2" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+                <img src="ballet-class-pointe.jpg" width = "200px" height="135px" alt="Descriere poza 3" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+                <img src="ballet-class-rehersal.jpg" width = "200px" height="135px" alt="Descriere poza 4" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+                <img src="ballet-class.jpg" width = "200px" height="135px" alt="Descriere poza 4" onclick="myFunction(this);">
+            </div>
         </div>
-      </div>
+    </div>
+      <div class="upPart">
+          <h2><b>Ballet Shows</b></h2>
+          <div class="container2">
+              <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+              <img id="expandedImg2" style="width:75%; height:75%">
+              <div id="imgtext2"></div>
+          </div>
+          <div class="row">
+              <div class="column">
+                  <img src="ballet-show-Alice.jpg" width = "200px" height="135px" alt="Descriere poza 1" onclick="myFunction2(this);">
+              </div>
+              <div class="column">
+                  <img src="ballet-show-bayadera.jpg" width = "200px" height="135px" alt="Descriere poza 2" onclick="myFunction2(this);">
+              </div>
+              <div class="column">
+                  <img src="ballet-show-giselle.jpg" width = "200px" height="135px" alt="Descriere poza 3" onclick="myFunction2(this);">
+              </div>
+              <div class="column">
+                  <img src="ballet-show-nutcracker.jpg" width = "200px" height="135px" alt="Descriere poza 4" onclick="myFunction2(this);">
+              </div>
+              <div class="column">
+                  <img src="ballet-show-swan.jpg" width = "200px" height="135px" alt="Descriere poza 4" onclick="myFunction2(this);">
+              </div>
+          </div>
       </div>
   </div>
 </body>
